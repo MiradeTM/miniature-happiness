@@ -1,0 +1,83 @@
+.clearfix::after {
+    clear: both;
+    content: "";
+    display: block;
+}
+
+h1 {
+    background-color: rgb(39, 107, 65);
+    color: rgb(231, 229, 229);
+    text-align: center;
+}
+
+h2 {
+    background: rgb(39, 107, 65);
+    color: rgb(231, 229, 229);
+    text-align: center;
+
+}
+
+h3 {
+    text-align: center;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+body {
+    background: rgb(238, 243, 219);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+#ginger,
+#dad,
+#mom {
+    background: lightgreen;
+    color: rgb(78, 78, 78);
+    border: 2px solid rgb(238, 243, 219);
+    float: left;
+    width: 33%;
+    height: 500px;
+    font-weight: 100;
+}
+
+#rv {
+    background: green;
+    margin: 20px auto;
+    text-align: center;
+    color: whitesmoke
+}
+
+#followUs {
+    position: fixed;
+    background: green;
+    top: 30px;
+    Height: 67px;
+    padding-top: 8px;
+    width: 75px;
+    text-align: center;
+    border: 1px solid lightgreen;
+}
+
+#vlog {
+    position: fixed;
+    background: green;
+    top: 110px;
+    Height: 60px;
+    padding-top: 15px;
+    width: 75px;
+    text-align: center;
+    border: 1px solid lightgreen;
+    z-index: 1;
+}
+
+img {
+    height: 300px;
+    width: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
